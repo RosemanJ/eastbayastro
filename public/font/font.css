@@ -1,0 +1,66 @@
+/* Gensler Kievit Web Fonts */
+/* author: Kirk Austin */
+/*
+    Avoid the temptation to stack fonts, as it can cause a layout reflow.
+    Do something like this instead:
+    font-family: Kievit, sans-serif;
+    
+    Chrome wants to see a mime type of: x-font-woff
+    Other browsers don't seem to care.
+*/
+    
+
+@font-face {
+    font-family: 'Kievit';
+    src: url('../font/KievitOTRegular.eot');
+    src: url('../font/KievitOTRegular.eot?#iefix') format('embedded-opentype'),
+         url('../font/KievitOTRegular.woff') format('woff'),
+         url('../font/KievitOTRegular.ttf') format('truetype'),
+         url('../font/KievitOTRegular.svg#Kievit') format('svg');
+}
+
+@font-face {
+    font-family: 'KievitItalic';
+    src: url('../font/KievitOTRegular-Italic.eot');
+    src: url('../font/KievitOTRegular-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../font/KievitOTRegular-Italic.woff') format('woff'),
+         url('../font/KievitOTRegular-Italic.ttf') format('truetype'),
+         url('../font/KievitOTRegular-Italic.svg#KievitItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'KievitLight';
+    src: url('../font/KievitOTLight.eot');
+    src: url('../font/KievitOTLight.eot?#iefix') format('embedded-opentype'),
+         url('../font/KievitOTLight.woff') format('woff'),
+         url('../font/KievitOTLight.ttf') format('truetype'),
+         url('../font/KievitOTLight.svg#KievitLight') format('svg');
+}
+
+@font-face {
+    font-family: 'KievitLightItalic';
+    src: url('../font/KievitOTLight-Italic.eot');
+    src: url('../font/KievitOTLight-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../font/KievitOTLight-Italic.woff') format('woff'),
+         url('../font/KievitOTLight-Italic.ttf') format('truetype'),
+         url('../font/KievitOTLight-Italic.svg#KievitLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'KievitBold';
+    src: url('../font/KievitOTBold.eot');
+    src: url('../font/KievitOTBold.eot?#iefix') format('embedded-opentype'),
+         url('../font/KievitOTBold.woff') format('woff'),
+         url('../font/KievitOTBold.ttf') format('truetype'),
+         url('../font/KievitOTBold.svg#KievitBold') format('svg');
+}
+
+@font-face {
+    font-family: 'KievitBoldItalic';
+    src: url('../font/KievitOTBold-Italic.eot');
+    src: url('../font/KievitOTBold-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../font/KievitOTBold-Italic.woff') format('woff'),
+         url('../font/KievitOTBold-Italic.ttf') format('truetype'),
+         url('../font/KievitOTBold-Italic.svg#KievitBoldItalic') format('svg');
+}
+
