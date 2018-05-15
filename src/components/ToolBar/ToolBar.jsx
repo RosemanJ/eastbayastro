@@ -80,7 +80,7 @@ class ToolBar extends React.Component {
           <Menu menuTitle='Links' menuOptions={LinksMenu} />
           <Menu menuTitle='About' menuOptions={AboutMenu} />
         </div>
-        <div className='toolbar_right'>
+        <div className='toolbar_right social_media'>
           <div className='item logo logo_twitter' title='twitter' onClick={this.clickHandler}><img src='../img/Twitter_Logo_White_On_Blue.svg' alt='Twitter logo' /></div>
           <div className='item logo logo_facebook' title='facebook' onClick={this.clickHandler}><img src='../img/FB-f-Logo__blue_29.png' alt='Facebook logo' /></div>
           <div className='item logo logo_instagram' title='instagram' onClick={this.clickHandler}><img src='../img/FB-f-Logo__blue_29.png' alt='Instagram logo' /></div>
